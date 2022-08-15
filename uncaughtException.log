@@ -1,0 +1,69 @@
+2022-08-15 01:16:52 error: Error: Exception error
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:66:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-15 02:00:23 error: TypeError: Assignment to constant variable.
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/logging.js:10:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/database.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15 02:00:54 error: TypeError: Assignment to constant variable.
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/logging.js:10:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/database.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+2022-08-15 02:01:34 error: TypeError: winston.info is not a function
+    at /home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/database.js:8:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-08-15 02:02:29 error: ReferenceError: winston is not defined
+    at /home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/database.js:8:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-08-15 02:05:06 error: Error: Exception error
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:15:7)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-15 02:09:11 error: Error: failed miserably
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:10:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-15 02:09:28 error: Error: failed miserably
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:10:26)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-15 02:14:14 error: Error: FATAL ERROR: jwtPrivateKey is not defined
+    at module.exports (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/config.js:9:11)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:8:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
