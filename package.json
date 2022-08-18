@@ -4,11 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^28.1.7",
     "bcrypt": "^5.0.1",
     "config": "^3.3.7",
     "debug": "^4.3.4",
@@ -22,5 +23,9 @@
     "mongoose": "^6.5.1",
     "winston": "^3.8.1",
     "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4"
   }
 }

@@ -67,3 +67,30 @@
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
     at node:internal/main/run_main_module:17:47
+2022-08-15 23:58:00 error: Error: FATAL ERROR: jwtPrivateKey is not defined
+    at module.exports (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/config.js:6:11)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:7:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-15 23:58:42 error: Error: FATAL ERROR: jwtPrivateKey is not defined
+    at module.exports (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/config.js:6:11)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:7:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+2022-08-18 09:00:24 error: Error: FATAL ERROR: jwtPrivateKey is not defined
+    at module.exports (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/startup/config.js:6:11)
+    at Object.<anonymous> (/home/ubuntu/Desktop/Courses/my attempts - mes tentatives/vidly-backend/index.js:7:28)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
