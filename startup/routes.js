@@ -8,8 +8,6 @@ const auth = require("../routes/auth");
 const returns = require("../routes/returns");
 const error = require("../middleware/error");
 
-const cors = require("cors");
-
 module.exports = function (app) {
   app.use(express.json());
   app.use("/api/genres", genres);
@@ -20,5 +18,4 @@ module.exports = function (app) {
   app.use("/api/auth", auth);
   app.use("/api/returns", returns);
   app.use(error);
-  app.use(cors());
 };
