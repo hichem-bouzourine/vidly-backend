@@ -1,5 +1,5 @@
 {
   "jwtPrivateKey": "vidly_jwtPrivateKey",
   "db": "vidly_db",
-  "url": "https://vidly-zone.herokuapp.com/"
+  "url": "https://vidly-zone.herokuapp.com"
 }
