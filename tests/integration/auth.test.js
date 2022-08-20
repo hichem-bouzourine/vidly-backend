@@ -5,10 +5,12 @@ const { User } = require("../../models/user");
 describe("auth middleware", () => {
   beforeEach(() => {
     server = require("../../index");
+    token = new User().generateAuthToken();
   });
+
   afterEach(async () => {
+    await server.close();
     await Genre.deleteMany({});
-    server.close();
   });
   let token;
 
@@ -18,10 +20,6 @@ describe("auth middleware", () => {
       .set("x-auth-token", token)
       .send({ name: "genre1" });
   };
-
-  beforeEach(() => {
-    token = new User().generateAuthToken();
-  });
 
   it("should return 401 if no token is provided", async () => {
     token = "";
