@@ -19,7 +19,7 @@ router.post("/", async (req, res) => {
   if (result.error)
     return res.status(400).send(result.error.details[0].message);
 
-  let user = await User.findOne({ email: req.body.email });
+  let user = await User.findOne({ email: req.body.email.trim() });
   if (user) return res.status(400).send("User Already registered."); // Search for the existence of user in the DB.
 
   user = new User(_.pick(req.body, ["name", "email", "password"]));
