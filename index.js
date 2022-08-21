@@ -1,17 +1,9 @@
-const config = require("config");
 const winston = require("./startup/logging");
 const express = require("express");
 const app = express();
 
-const cors = require("cors");
-const corsOptions = {
-  origin: config.get("url"),
-  credentials: true, //access-control-allow-credentials:true
-  optionSuccessStatus: 200,
-};
-app.use(cors(corsOptions));
-
 require("./startup/routes")(app);
+require("./startup/cors")(app);
 require("./startup/database")();
 require("./startup/config")();
 require("./startup/validation")();
