@@ -2,6 +2,8 @@ const winston = require("./startup/logging");
 const express = require("express");
 const app = express();
 
+app.use(cors());
+
 require("./startup/routes")(app);
 require("./startup/cors")(app);
 require("./startup/database")();
